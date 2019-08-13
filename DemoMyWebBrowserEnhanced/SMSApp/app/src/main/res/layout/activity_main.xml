@@ -18,11 +18,13 @@
             android:text="To: " />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="phone" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -38,10 +40,10 @@
 
         <EditText
             android:id="@+id/editText7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <Button
@@ -49,5 +51,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/send" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg" />
 
 </LinearLayout>
